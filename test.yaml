@@ -17,6 +17,7 @@
 
 - name: install nodejs
   hosts: local
+  become: yes
   connection: local
   tasks:
 
