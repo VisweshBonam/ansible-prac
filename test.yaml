@@ -1,5 +1,6 @@
 - name: dnf
-  hosts: frontend
+  hosts: localhost
+  connection: local
   become: yes
   tasks:
 
